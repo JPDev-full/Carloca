@@ -1,0 +1,10 @@
+INSERT INTO Categorias (nome_categoria) VALUES ('Hatch'), ('Sedã Compacto'), ('Sedã Médio'), ('SUV');
+
+INSERT INTO Carros (modelo, montadora, cor, versao, categoria_id, local_locacao)
+VALUES ('Gol', 'Volkswagen', 'branco', '1.0', 1, 'Loja A'),
+       ('Corolla', 'Toyota', 'preto', 'XEI', 3, 'Loja B');
+
+INSERT INTO Clientes (nome, carro_alugado_id) VALUES ('João', NULL), ('Maria', NULL);
+
+INSERT INTO Historico_Aluguel (carro_id, cliente_id, data_inicio, data_fim, quilometragem_inicial, quilometragem_final, local_devolucao)
+VALUES (2, 1, '2023-01-01', '2023-01-05', 15000, 15200, 'Loja B');
