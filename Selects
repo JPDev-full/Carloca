@@ -1,0 +1,7 @@
+SELECT * FROM Carros WHERE locado = 0;
+
+SELECT * FROM Historico_Aluguel WHERE cliente_id = 1;
+
+SELECT * FROM Carros WHERE carro_id = (SELECT carro_alugado_id FROM Clientes WHERE cliente_id = 1);
+
+SELECT * FROM Carros WHERE cor = 'preto' AND categoria_id = 3;
