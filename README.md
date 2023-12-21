@@ -1,7 +1,7 @@
 # Modelo de banco de dados da locadora Carloca.
 
-![image](https://github.com/JPDev-full/Carloca/assets/120661541/9bb3b27d-7d86-4b3e-8d25-1d282a1f1aac) ![image](https://github.com/JPDev-full/Carloca/assets/120661541/5428b938-2b11-46b4-820f-bf602fcf025f)
-
+![image](https://github.com/JPDev-full/Carloca/assets/120661541/5428b938-2b11-46b4-820f-bf602fcf025f)
+![image](https://github.com/JPDev-full/Carloca/assets/120661541/9bb3b27d-7d86-4b3e-8d25-1d282a1f1aac) 
 
 
 Para constrir a base dados e usar rodar os seguintes comandos no client:
